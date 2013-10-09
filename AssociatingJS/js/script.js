@@ -76,7 +76,21 @@ var quiz4 = 80;
 //Certain operations happen before other operations
 //PEMDAS = Parenthesis, Exponents, Multiplication, Addition, Subtraction
 
-var average = (quiz1 + quiz2 + quiz3 +quiz4)/4; //this is the result variable
+var average = (quiz1 + quiz2 + quiz3 + quiz4)/4; //this is the result variable
 console.log(average);
 /*In order for this to work, you must consider the order of operations. the variables to the quizzes must be put in
 parenthesis so that they are calculated before they are divided by four*/
+
+//Expressions - Expressions with arrays
+
+var orangeBins = [234, 567, 883]; //This is my array
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2]; //This is my expression
+console.log(total);
+
+//Expressions - Concatenating Strings
+var firstName = "Adrian";
+var lastName = "Sane";
+var fullName = firstName + " " + lastName; /*adding a second + and a blank space inside of quotation marks allows me to put a space between my
+first name and my last name*/
+console.log(fullName);
+
