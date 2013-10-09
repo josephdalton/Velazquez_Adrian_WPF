@@ -64,3 +64,19 @@ console.log(remainder);
 
 var remainder2 = 12 % 554;
 console.log(remainder2);
+
+//Expressions - PEMDAS - The order of operations
+
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 60;
+var quiz4 = 80;
+
+// The average is the sum of all items divided by the number of items
+//Certain operations happen before other operations
+//PEMDAS = Parenthesis, Exponents, Multiplication, Addition, Subtraction
+
+var average = (quiz1 + quiz2 + quiz3 +quiz4)/4; //this is the result variable
+console.log(average);
+/*In order for this to work, you must consider the order of operations. the variables to the quizzes must be put in
+parenthesis so that they are calculated before they are divided by four*/
