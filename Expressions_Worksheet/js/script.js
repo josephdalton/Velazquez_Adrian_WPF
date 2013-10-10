@@ -108,4 +108,11 @@ var age = 1; //given - this represents sparky's age.
 age *= 7; //sparky is 1 human years old which is 7 in dog years - this represents sparky's age in dog years times 7 human years.
 console.log(age); //this will print the dogs years out in human years.
 
+//Slice of Pie part 1
+var slices = 12; //this variable represents the given number of slices per pizza.
+var people = 24; //this variable represents the given number of people at the party.
+var pizzas = 4; //this variable represents the given number of pizzas delivered to the party.
+
+var perPerson = slices * pizzas / people; /*this variable multiplies the slices and pizzas to give me the total number of slices, then divides the answer by the number of people to give me the amount of slices per people at the party.*/
+console.log(perPerson); //this will print the amount of slices per person at the party.
 

@@ -74,7 +74,7 @@ var quiz4 = 80;
 
 // The average is the sum of all items divided by the number of items
 //Certain operations happen before other operations
-//PEMDAS = Parenthesis, Exponents, Multiplication, Addition, Subtraction
+//PEMDAS = Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction
 
 var average = (quiz1 + quiz2 + quiz3 + quiz4)/4; //this is the result variable
 console.log(average);
