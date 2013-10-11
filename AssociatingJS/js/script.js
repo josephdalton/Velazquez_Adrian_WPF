@@ -167,7 +167,8 @@ console.log(a);
  
  //another way to get the answer for the user is to use an alert
  
- alert("The area of your rectangle is" + area); //this is a concactenated example, it adds a string to a variable and displays in that order.
+ alert("The area of your rectangle is" + area + " sq feet"); //this is a concactenated example, it adds a string to a variable and displays in that order.
  
- 
- 
+ //yet another way to do this would be to substitute the concatenation expression into a result variable, then alerting the variable
+ var result = "The area of your rectangle is" + area + " sq feet";
+alert(result);
