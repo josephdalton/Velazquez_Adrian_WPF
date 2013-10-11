@@ -37,7 +37,7 @@ a = a + 3; //the assignment operator "=" actually changes the value of (a), stor
 console.log(a);
 // The answer to c = b + 75; is stored in var c; b = 25 and the question is line 41, it gets the answer from var c in line 40
 var b = 25;
-var c; //tores the result
+var c; //stores the result
 c = b + 75;
 console.log(c);
 
@@ -154,6 +154,9 @@ console.log(a);
  a --; //-- subtracts 2000 to 1999
  console.log(a);
  
+ //Prompt and Alert
  
+ var userInput = prompt("Enter your year of birth:");
+ console.log(userInput);
  
  
