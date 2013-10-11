@@ -44,7 +44,7 @@ var theButler = "home";
 var theCook = "notHome";
 var theMaid = "notHome";
 var theNanny = "notHome";
-
+//the code that follows calculates the answer, if the butler is home, he is guilty.
 if(theButler > home){
 	console.log("The Butler Done It!");
 }
@@ -52,20 +52,7 @@ if(theButler > home){
 else{
 	console.log("Who Done It?");
 }
+console.log(guilty);
 
-if(theCook > home){
-	console.log("The Butler Done It!");
-}
 
-else{
-	console.log("Who Done It?");
-}
-
-if(theMaid > home){
-	console.log("The Butler Done It!");
-}
-
-else{
-	console.log("Who Done It?");
-}
 
