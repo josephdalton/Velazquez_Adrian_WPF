@@ -11,11 +11,17 @@ Bad example: Using time and distance to calculate speed.
 All three factors must be essential for the calculation. If one of the factors (the pieces of information you are collecting with the prompts) is not needed in order to calculate the result then it is not essential.
 There should be a minimum of 3 prompts to collect user information. The prompts should include labels so the user knows what information they need to enter. These prompts should assign the information collected into variables you have set up.
 Your calculation should be original.
+
 Write the givens as appropriately named variables.
+
 Declare a variable for the resulting value of the calculation.
+
 Calculate the result using the variables in an expression (NOT the literal values or numbers)
+
 Assign the calculation to the resulting variable.
+
 The result should appear in the browser's console. (Remember to include units like “square feet” or "meters cubed"). This should explain the result as well.
+
 Good example of console print out: The volume of the sphere is 26 feet cubed.
 Bad example of console print out: 26
 Show at least one example of string concatenation (this will be useful for that console print out mentioned above).
@@ -30,4 +36,11 @@ You are required to make at least 20 commits to your repository for each project
 Failing to do so will result in a 0 for the assignment. */
 
 //how many gallons of gasoline do I need to travel 100 miles
+
+var tankCap = 13;
+
+var trip1 = 122;
+var trip2 = 119;
+var trip3 = 110;
+var trip4 = 126;
 
