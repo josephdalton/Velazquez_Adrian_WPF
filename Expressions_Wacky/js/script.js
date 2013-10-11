@@ -4,15 +4,15 @@
 
 //Who done it - using if and else as an experiment, an array is present, trying to find the guilty part in a group of suspects to a murder
 
-var suspects = ["theCook", "theMaid", "theButler", "theNanny"]; //this array holds a list of suspects
+var suspects = ["theCook", "theMaid", "theButler", "theNanny"];//this array holds a list of suspects
 
-var notHome = "notGuilty"; //this string states that whom ever is not home is not guilty
-var home = "guilty"; //this string states that whom ever is home is guilty
+var notHome = "notGuilty";//this string states that whom ever is not home is not guilty
+var home = "guilty";//this string states that whom ever is home is guilty
 
-var theButler = "home"; //this variable states that the butler is home. theButler is the storage container for the value of home
-var theCook = "notHome"; //this variable states that the cook is not home. TheCook is the storage container for the value of not home
-var theMaid = "notHome"; //this variable states that the maid is not home. TheMaid is the storage container for the value of not home
-var theNanny = "notHome"; //this variable states that the nanny is not home. TheNanny is the storage container for the value of not home
+var theButler = "home";//this variable states that the butler is home. theButler is the storage container for the value of home
+var theCook = "notHome";//this variable states that the cook is not home. TheCook is the storage container for the value of not home
+var theMaid = "notHome";//this variable states that the maid is not home. TheMaid is the storage container for the value of not home
+var theNanny = "notHome";//this variable states that the nanny is not home. TheNanny is the storage container for the value of not home
 
 if(theButler > home){
 	console.log("The Butler Done It!");
