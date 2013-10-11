@@ -78,4 +78,4 @@ else{
 
 
 
-console.log(home);
+console.log(home);//states that the guilty party that is present at home is guilty
