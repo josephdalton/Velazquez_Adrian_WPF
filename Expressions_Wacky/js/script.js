@@ -53,11 +53,11 @@ else{
 	console.log("Who Done It?");
 }
 
-if(theCook =< home){
-	console.log("The Butler Done It!");
+if(theCook < home){
+	console.log("Who Done It?");
 }
 else{
-	console.log("Who Done It?");
+	console.log("The Cook is Innocent!");
 }
 
 
