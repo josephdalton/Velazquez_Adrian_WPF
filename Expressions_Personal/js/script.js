@@ -48,7 +48,8 @@ var average = (trip1 + trip2 + trip3 + trip4)/4; //this adds the average mileage
 
 var miles = (average / tankCap); //this divides the average mileage by the capacity of the tank to find my miles per gallon
 
-var per100 = (average / 100);
+var per100 = (100 / miles);
+
 console.log(average);
 console.log(miles);
 console.log(per100);
