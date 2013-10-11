@@ -47,9 +47,6 @@ var theCook = "notHome"; //this variable states that the cook is not home. TheCo
 var theMaid = "notHome"; //this variable states that the maid is not home. TheMaid is the storage container for the value of not home
 var theNanny = "notHome"; //this variable states that the nanny is not home. TheNanny is the storage container for the value of not home
 
-var home = guilty;
-var guilty = WhoDoneit;
-console.log(guilty);
 
 if(theButler > home){
 	console.log("The Butler Done It!");
@@ -81,3 +78,4 @@ else{
 
 
 
+console.log(home);
