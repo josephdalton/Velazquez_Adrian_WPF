@@ -37,18 +37,25 @@ Failing to do so will result in a 0 for the assignment. */
 //Who done it - using if and else as an experiment, an array is present, trying to find the guilty part in a group of suspects
 var suspects = ["theCook", "theMaid", "theButler", "theNanny"]; //this array holds a list of suspects
 
-var notHome = "notguilty"; //this string states that whom ever is not home is not guilty
+var notHome = "notGuilty"; //this string states that whom ever is not home is not guilty
 var home = "guilty"; //this string states that whom ever is home is guilty
 
 var theButler = "home"; //this variable states that the butler is home. theButler is the storage container for the value of home
 var theCook = "notHome"; //this variable states that the cook is not home. TheCook is the storage container for the value of not home
 var theMaid = "notHome";
 var theNanny = "notHome";
+
 //the code that follows calculates the answer, if the butler is home, he is guilty.
 if(theButler > home){
 	console.log("The Butler Done It!");
 }
+else{
+	console.log("Who Done It?");
+}
 
+if(theCook > home){
+	console.log("The Butler Done It!");
+}
 else{
 	console.log("Who Done It?");
 }
