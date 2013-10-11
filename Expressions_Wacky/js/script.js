@@ -20,20 +20,7 @@ Calculate the result using the variables in an expression (NOT the literal value
 
 Assign the calculation to the resulting variable.
 
-The result should appear in the browser's console. (Remember to include units like “square feet” or "meters cubed"). This should explain the result as well.
-
-Good example of console print out: The volume of the sphere is 26 feet cubed.
-Bad example of console print out: 26
-Show at least one example of string concatenation (this will be useful for that console print out mentioned above).
-Comment every line of code (describe what each line is doing in English). Do NOT just label sections of your code.
-Each of the following requirements must exist in at least one of the 3 subprojects:
-An example of 3 different arithmetic operators.
-An example of an array. This array must be used as part of the calculation.
-A string variable
-At least 2 assignment operators (not including the = symbol)
-Committing to your repository:
-You are required to make at least 20 commits to your repository for each project as you develop your code.
-Failing to do so will result in a 0 for the assignment. */
+The result should appear in the browser's console. (Remember to include units like “square feet” or "meters cubed"). This should explain the result as well. */
 
 //Who done it - using if and else as an experiment, an array is present, trying to find the guilty part in a group of suspects to a murder
 
