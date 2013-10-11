@@ -53,7 +53,7 @@ else{
 	console.log("Who Done It?");
 }
 
-if(theCook > home){
+if(theCook =< home){
 	console.log("The Butler Done It!");
 }
 else{
