@@ -65,7 +65,7 @@ if(theMaid < home){
 }
 else{
 	console.log("The Maid is Innocent!");
-}
+}//this code calculates the answer, if the maid is home, she is guilty.
 
 if(theNanny < home){
 	console.log("Who Done It?");
