@@ -35,7 +35,7 @@ Committing to your repository:
 You are required to make at least 20 commits to your repository for each project as you develop your code.
 Failing to do so will result in a 0 for the assignment. */
 
-var suspects = ["theCook", "theMaid", "theButler", "theNanny"];
+var suspects = ["theCook", "theMaid", "theButler", "theNanny"]; //this array holds a list of suspects
 
 var notHome = "notguilty";
 var home = "guilty";
@@ -52,7 +52,7 @@ if(theButler > home){
 else{
 	console.log("Who Done It?");
 }
-console.log(guilty);
+
 
 
 
