@@ -172,3 +172,4 @@ console.log(a);
  //yet another way to do this would be to substitute the concatenation expression into a result variable, then alerting the variable
  var result = "The area of your rectangle is" + area + " sq feet";
 alert(result);
+
