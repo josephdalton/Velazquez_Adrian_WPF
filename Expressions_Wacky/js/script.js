@@ -50,28 +50,28 @@ var theNanny = "notHome"; //this variable states that the nanny is not home. The
 
 if(theButler > home){
 	console.log("The Butler Done It!");
-}
+}//this code calculates the answer, if the butler is home, he is guilty.
 else{
 	console.log("Who Done It?");
-}//this code calculates the answer, if the butler is home, he is guilty.
+}//this code states if the butler is not home he is innocent.
 
 if(theCook < home){
 	console.log("Who Done It?");
-}
+}//this code states if the cook is not home he is innocent.
 else{
 	console.log("The Cook is Innocent!");
 }//this code calculates the answer, if the cook is home, he is guilty.
 
 if(theMaid < home){
 	console.log("Who Done It?");
-}
+}//this code states if the maid is not home she is innocent.
 else{
 	console.log("The Maid is Innocent!");
 }//this code calculates the answer, if the maid is home, she is guilty.
 
 if(theNanny < home){
 	console.log("Who Done It?");
-}
+}//this code states if the nanny is not home she is innocent.
 else{
 	console.log("The Nanny is Innocent!");
 }//this code calculates the answer, if the nanny is home, she is guilty.
