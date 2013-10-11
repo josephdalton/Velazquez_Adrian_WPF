@@ -37,8 +37,8 @@ Failing to do so will result in a 0 for the assignment. */
 
 var suspects = ["theCook", "theMaid", "theButler", "theNanny"]; //this array holds a list of suspects
 
-var notHome = "notguilty";
-var home = "guilty";
+var notHome = "notguilty"; //this string states that whom ever is not home is not guilty
+var home = "guilty"; //this string states that whom ever is home is guilty
 
 var theButler = "home";
 var theCook = "notHome";
