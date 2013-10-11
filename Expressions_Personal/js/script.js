@@ -41,7 +41,7 @@ var tankCap = 13; //the variable tank cap is the storage container for 13 gallon
 
 var trip1 = 122; //the variable trip1 shows the number of miles I went on one tank of gas
 var trip2 = 119; //the variable trip2 shows the number of miles I went on one tank of gas the following week
-var trip3 = 110;
+var trip3 = 110; //the variable trip3 shows the number of miles I went on one tank of gas the following week
 var trip4 = 126;
 
 var average = (trip1 + trip2 + trip3 + trip4)/4; //this adds the average mileage for four fill ups and divides by 4 to find the average mileage
