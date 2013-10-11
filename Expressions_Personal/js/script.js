@@ -52,7 +52,7 @@ var per100 = (100 / miles);
 
 console.log(average);
 console.log(miles);
-console.log(per100);
+console.log("It would take", per100, "to travel 100 miles"); //the answer to the question
 
 
 
