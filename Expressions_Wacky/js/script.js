@@ -36,9 +36,36 @@ You are required to make at least 20 commits to your repository for each project
 Failing to do so will result in a 0 for the assignment. */
 
 var suspects = ["theCook", "theMaid", "theButler", "theNanny"];
-var whoDoneit = ["guilty", "notGuilty"];
-suspects [0] = "notGuilty";
-suspects [1] = "notGuilty";
-suspects [2] = "guilty";
-suspects [3] = "notGuilty";
-console.log("guilty");
+
+var notHome = "notguilty";
+var home = "guilty";
+
+var theButler = "home";
+var theCook = "notHome";
+var theMaid = "notHome";
+var theNanny = "notHome";
+
+if(theButler > home){
+	console.log("The Butler Done It!");
+}
+
+else{
+	console.log("Who Done It?");
+}
+
+if(theCook > home){
+	console.log("The Butler Done It!");
+}
+
+else{
+	console.log("Who Done It?");
+}
+
+if(theMaid > home){
+	console.log("The Butler Done It!");
+}
+
+else{
+	console.log("Who Done It?");
+}
+
