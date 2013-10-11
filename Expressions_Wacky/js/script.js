@@ -60,6 +60,19 @@ else{
 	console.log("The Cook is Innocent!");
 }
 
+if(theMaid < home){
+	console.log("Who Done It?");
+}
+else{
+	console.log("The Maid is Innocent!");
+}
+
+if(theNanny < home){
+	console.log("Who Done It?");
+}
+else{
+	console.log("The Nanny is Innocent!");
+}
 
 
 
