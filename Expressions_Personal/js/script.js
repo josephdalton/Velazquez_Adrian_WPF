@@ -44,3 +44,7 @@ var trip2 = 119;
 var trip3 = 110;
 var trip4 = 126;
 
+var average = (trip1 + trip2 + trip3 + trip4) / 4;
+
+console.log(average);
+
