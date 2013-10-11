@@ -28,3 +28,6 @@ At least 2 assignment operators (not including the = symbol)
 Committing to your repository:
 You are required to make at least 20 commits to your repository for each project as you develop your code.
 Failing to do so will result in a 0 for the assignment. */
+
+
+//the rest of this assignment will be late. I will submit the remainder tomorrow after work
