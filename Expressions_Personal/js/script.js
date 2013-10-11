@@ -34,7 +34,7 @@ A string variable
 
 //how many gallons of gasoline do I need to travel 100 miles
 
-var tankCap = 13; //the variable tank cap is the storage container for 13 gallons of gasoline
+var tankCap = 13; //the variable tank cap is the storage container for 13 gallons of gasoline - This is a given.
 
 var trip1 = 122; //the variable trip1 shows the number of miles I went on one tank of gas
 var trip2 = 119; //the variable trip2 shows the number of miles I went on one tank of gas the following week
