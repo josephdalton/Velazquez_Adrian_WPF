@@ -23,3 +23,6 @@ var subDuties = ["CLient Meetings", "Wire Frames", "Mockup\'s", "Front-End Devel
 console.log(subDuties[0] + " are performed in the " + duties[0] + " phase with " + a + ", " + b + ", " + "and " + c); //prints out steps
 console.log(subDuties[1] + " are performed in the " + duties[1] + " phase with " + b + ", " + c + ", " + "and " + d); //prints out steps
 console.log(subDuties[2] + " are performed in the " + duties[2] + " phase with " + b + ", " + c + ", " + "and " + d); //prints out steps
+console.log(subDuties[3] + " is performed in the " + duties[3] + " phase with " + a + ", " + c + ", " + "and " + d); //prints out steps
+console.log(subDuties[4] + " are performed in the " + duties[4] + " phase with " + a + ", " + b + ", " + "and " + c); //prints out steps
+console.log(subDuties[5] + " duties are perfomed in the " + duties[5] + " phase with the " + a + ", "+ c + ", " + "and " + "the " + d);
