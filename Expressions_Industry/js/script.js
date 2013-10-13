@@ -39,5 +39,9 @@ var duties = ["Discovery", "Design Structure", "Design Visual", "Build and Integ
 
 var a = "developers"; //this depicts a developers responsability 
 var b = "designers"; //this depicts a designers responsability
+var c = "teamLeads"; //this depicts a teamLeads responsability
 
-console.log(duties[0] + " is a " + b + " duty ");
+console.log(duties[0] + " is a " + b + " duty "); //prints out a duty for designers
+console.log(duties[1] + " is a " + b + " duty "); //prints out a duty for designers
+console.log(duties[2] + " is a " + b + " duty "); //prints out a duty for designers
+console.log(duties[3] + " is a " + a + " duty "); //prints out a duty for developers
