@@ -40,4 +40,4 @@ var duties = ["Discovery", "Design Structure", "Design Visual", "Build and Integ
 var a = "developers"; //this depicts a developers responsability 
 var b = "designers"; //this depicts a designers responsability
 
-console.log(duties[0]);
+console.log(duties[0] + " is a " + b + " duty ");
