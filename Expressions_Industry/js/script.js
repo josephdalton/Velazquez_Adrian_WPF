@@ -9,6 +9,7 @@ var duties = ["Discovery", "Design Structure", "Design Visual", "Build and Integ
 var a = "developers"; //this depicts a developers responsability 
 var b = "designers"; //this depicts a designers responsability
 var c = "team lead\'s"; //this depicts a teamLeads responsability
+var d = "client\'s";
 
 console.log(duties[0] + " is a " + b + " duty "); //prints out a duty for designers
 console.log(duties[1] + " is a " + b + " duty "); //prints out a duty for designers
@@ -20,3 +21,5 @@ console.log(duties[5] + " is a " + c + " duty "); //prints out a duty for team l
 var subDuties = ["CLient Meetings", "Wire Frames", "Mockup\'s", "Front-End Development", "UI and Design", "Launch to Server"];
 
 console.log(subDuties[0] + " are performed in the " + duties[0] + " phase with " + a + ", " + b + ", " + "and " + c); //prints out steps
+console.log(subDuties[1] + " are performed in the " + duties[1] + " phase with " + b + ", " + c + ", " + "and " + d); //prints out steps
+console.log(subDuties[2] + " are performed in the " + duties[2] + " phase with " + b + ", " + c + ", " + "and " + d); //prints out steps
