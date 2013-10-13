@@ -18,3 +18,5 @@ console.log(duties[4] + " is a " + a + ", " + b + ", " + "and " +  c  + " duties
 console.log(duties[5] + " is a " + c + " duty "); //prints out a duty for team leads
 
 var subDuties = ["CLient Meetings", "Wire Frames", "Mockup\'s", "Front-End Development", "UI and Design", "Launch to Server"];
+
+console.log(subDuties[0] + " are performed in the " + duties[0] + " phase with " + a + ", " + b + ", " + "and " + c); //prints out steps
