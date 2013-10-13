@@ -39,3 +39,5 @@ var duties = ["Discovery", "Design Structure", "Design Visual", "Build and Integ
 
 var x = developer; //this depicts a developers responsability 
 var y = designer; //this depicts a designers responsability
+
+console.log(duties[0] + "This is a designers duty");
