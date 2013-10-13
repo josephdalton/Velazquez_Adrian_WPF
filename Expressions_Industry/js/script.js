@@ -14,5 +14,5 @@ console.log(duties[0] + " is a " + b + " duty "); //prints out a duty for design
 console.log(duties[1] + " is a " + b + " duty "); //prints out a duty for designers
 console.log(duties[2] + " is a " + b + " duty "); //prints out a duty for designers
 console.log(duties[3] + " is a " + a + " duty "); //prints out a duty for developers
-console.log(duties[4] + " is a " + a + b + " and " +  c  + " duties "); //prints out a duty for all members of the team
+console.log(duties[4] + " is a " + a + " , " + b + " , " + " and " +  c  + " duties "); //prints out a duty for all members of the team
 console.log(duties[5] + " is a " + c + " duty "); //prints out a duty for team leads
