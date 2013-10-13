@@ -37,7 +37,7 @@ Failing to do so will result in a 0 for the assignment. */
 
 var duties = ["Discovery", "Design Structure", "Design Visual", "Build and Integrate", "Test", "Launch"]; //this is my array of duties
 
-var x = developer; //this depicts a developers responsability 
-var y = designer; //this depicts a designers responsability
+var developers = x; //this depicts a developers responsability 
+var designers = y; //this depicts a designers responsability
 
-console.log(duties[0] + "This is a designers duty");
+console.log(duties[0]);
