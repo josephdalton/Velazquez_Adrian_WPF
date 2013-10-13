@@ -173,3 +173,5 @@ console.log(a);
  var result = "The area of your rectangle is" + area + " sq feet";
 alert(result);
 
+
+
