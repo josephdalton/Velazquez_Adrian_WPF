@@ -35,5 +35,7 @@ Failing to do so will result in a 0 for the assignment. */
 
 //for industry, i will create a list of duties issued to designers and developers
 
+var duties = ["Discovery", "Design Structure", "Design Visual", "Build and Integrate", "Test", "Launch"];
+
 var x = developer;
 var y = designer;
