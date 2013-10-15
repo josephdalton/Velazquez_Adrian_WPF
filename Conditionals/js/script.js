@@ -200,8 +200,11 @@ if one of the pairs is false, the whole thing will be false.
 *Logical operators (&&, ||) go in between RELATIONAL EXPRESSIONS or BOOLEAN VALUES
 *ALWAYS work in pairs... if you need to do something with 3 objects, you need to brek it down into sets of pairs.
 
-
-
 */
+
+//TERNARY OPERATORS - DECISION MAKING ON ONE LINE - A ONE LINE WAY TO WRITE AN IF ELSE CONDITIONAL STATEMENT
+//This operator requires 3 components
+//The ternary operator is represented by a question mark ?
+//It works to shorten conditionals
 
 	
