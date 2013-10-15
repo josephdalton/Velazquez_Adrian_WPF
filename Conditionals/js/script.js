@@ -207,4 +207,33 @@ if one of the pairs is false, the whole thing will be false.
 //The ternary operator is represented by a question mark ?
 //It works to shorten conditionals
 
+/*if(condition){
+	do if true;
+}else{
+	do if false;
+}*/
+
+//to shorten this conditional statement using ternary operators it would look like this: (condition) ? do if true : do if false; 
+
+//example:
+//if the min gpa is over the 2.0 score, the student can graduate
+
+var gpa = 48;
+if(gpa > 2.0){
+	console.log("you can graduate!");
+}else{
+	console.log("sorry but youve got some studying to do!");
+}
+
+//the above code using a ternary operator:
+
+var gpa2 = 48;
+
+(gpa2 > 2.0) ? console.log("you can graduate!") : console.log("sorry but youve got some studying to do!");
+
+
+
+
+
+
 	
