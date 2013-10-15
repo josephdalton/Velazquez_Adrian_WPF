@@ -22,7 +22,6 @@ if(oldEnough){
 	}//code performed if the condition is true
 	
 //RELATIONAL EXPRESSIONS (comparing objects for decision making)
-//conditional operators: > greater than, < less than, >= greater than or equal to, <= less than or equal to,!= not equal to, == equal to.
 
 var kidHeight = 30;
 
@@ -106,8 +105,17 @@ if(kidHeight > minHeight){
 	console.log("Sorry kid, you cant ride the coaster yet!");//sorry kid you cant ride the coaster yet
 
 		}
-		
 //as soon as the program comes to a true statement, it will coose that block of code and ignore th others
+
+/*RELATIONAL OPERATORS - COMPARING TWO VALUES OR VARIABLES - conditional operators: > greater than, < less than, >= greater than or equal to, <= less than or equal to,!= not equal to, == equal to (or the same as), === strictly equal to.*/
+//These compare two (AND ONLY TWO) values or variables
+//The comparison results in "true" or "false"
+
+// === compares the same value AND the same type (are these two "strings" or are they "numbers"?
+
+
+
+
 
 
 	
