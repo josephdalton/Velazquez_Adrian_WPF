@@ -6,7 +6,7 @@
 
 //Conditional statements are one of the four types of procedural code: sequential, CONDITIONAL, reusable, and repetitive
 
-//CONDITIONAL LOGIC
+//IF STATEMENTS - CONDITIONAL LOGIC - FOR THE MACHINE TO CHOOSE WHEATHER TO DO A BLOCK OF CODE OR TO SKIP IT.
 
 /*if(condition){
 	action;
@@ -79,8 +79,35 @@ if(kidHeight + sneakerLift /* <-- this is and expression*/ > minHeight){
 	} //this condition is true an will print
 	
 
-//IF ELSE - CHOOSING BETWEEN TWO BLOCKS OF CODE
+//IF ELSE - FOR THE MACHINE TO CHOOSE BETWEEN TWO BLOCKS OF CODE
 
 
+var kidHeight = 50;
+var minHeight = 50;
+
+if(kidHeight > minHeight){
+	console.log("You can ride the coaster!");//This is the code performed if the condition is true
+	}else{//you can put else lines on the same line as the end of if statements. 
+	console.log("Sorry kid, you cant ride the coaster yet!");//This is the code performed if the condition is false
+	}
+	
+//ELSE IF - CHOOSING BETWEEN THREE OR MORE BLOCKS OF CODE
+//NOTE: elseif always requires a condition, else should never have a condition attached to it
+// in order for else if to work, each statement needs a condition. there should be a variable condition for each statement. Enter wParentHeight
+var kidHeight = 52;
+var minHeight = 48;
+var wParentHeight = 45;
+
+if(kidHeight > minHeight){
+	console.log("You can ride the coaster!");//you can ride
+}else if(kidHeight > wParentHeight){ 
+	console.log("You can ride with a parent");//you can ride with a parent present
+}else{
+	console.log("Sorry kid, you cant ride the coaster yet!");//sorry kid you cant ride the coaster yet
+
+		}
+		
+//as soon as the program comes to a true statement, it will coose that block of code and ignore th others
 
 
+	
