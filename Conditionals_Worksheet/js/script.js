@@ -45,7 +45,16 @@ Result To Print Out:
 “User not found. Try again.” -if the username does not match
 “Password does not match our records.”  -if the username matches but the password does not*/
 
+var userName = larissa;
+var passWord = iLoveKittens;
+var larissa = true;
+var iLoveKittens = true;
 
+
+
+console.log("Welcome, Larissa!");
+console.log("User not found, please try again");
+console.log("Password does not match our records");
 
 //MULTIPLE CONDITIONS
 
