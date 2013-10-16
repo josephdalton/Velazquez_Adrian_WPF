@@ -32,29 +32,25 @@ if(gasTank > tankCap / efficiency){
 
 //MULTIPLE RESULTS
 
-/*Check the Login
+//Check the login
 
-Make sure the user has the correct username and password. If the username doesn’t match then a specific message for that should be printed to the console. If the password doesn’t match a message should appear for that, etc. Only one error message should appear.
-Given:
-Username entered by user
-Password entered by user
-Correct username
-Correct password
-Result To Print Out:
-“Welcome, (place their username here)!”  - if the username and password is correct
-“User not found. Try again.” -if the username does not match
-“Password does not match our records.”  -if the username matches but the password does not*/
-
+//if the username matches our records, and the password mathces our records, you can log in
 var userName = larissa;
 var passWord = iLoveKittens;
 var larissa = true;
 var iLoveKittens = true;
 
+if(userName === larissa){
+	console.log("Welcome, Larissa!");
+}else if(passWord === iLoveKittens){
+	console.log("User not found, please try again");
+}else{
+	console.log("Password does not match our records");
+}
 
 
-console.log("Welcome, Larissa!");
-console.log("User not found, please try again");
-console.log("Password does not match our records");
+
+
 
 //MULTIPLE CONDITIONS
 
