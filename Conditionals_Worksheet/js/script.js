@@ -40,9 +40,9 @@ var passWord = iLoveKittens;
 var larissa = true;
 var iLoveKittens = true;
 
-if(userName === larissa){
+if(userName = larissa){
 	console.log("Welcome, Larissa!");
-}else if(passWord === iLoveKittens){
+}else if(passWord == iLoveKittens){
 	console.log("User not found, please try again");
 }else{
 	console.log("Password does not match our records");
@@ -62,3 +62,11 @@ Given:
 Pressure for each tire of the car (in psi) in an array.
 Result To Print Out:
 “The tires pass spec!” Or  “ Get your tires checked out!”*/
+
+var tires = ["LF 40 psi", "RF 35 psi", "LR 45 psi", "RR 45 psi"];
+
+if(tires[0] >= tires[1]+5 && tires[2] >= tires[3]+5){
+	console.log("Get your tires checked out!");
+}else{
+	console.log("The tires pass spec!");
+}
