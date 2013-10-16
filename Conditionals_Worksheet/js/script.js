@@ -19,14 +19,14 @@ Use only code and techniques learned in this class.
 //Last Chance for Gas!
 
 //if the percentage of gas in my tank, is more than the capacity of gallons in my tank, divided by the mpg efficiency, i can make it across.
-var efficiency = 20;
-var gasTank = 25;
-var tankCap = 15;
+var efficiency = 20;//variable efficiency holds the gas mileage of the car
+var gasTank = 25;//variable holds the value for the amount of gas in the tank
+var tankCap = 15;//variable tank cap holds the value for the tanks gas capacity
 
 if(gasTank > tankCap / efficiency){
-	console.log("Yes, you can make it without stopping for gas!");
+	console.log("Yes, you can make it without stopping for gas!");//print out if the condition is true
 }else{
-	console.log("You only have X gallons of gas in your tank, better get gas now while you can!");
+	console.log("You only have X gallons of gas in your tank, better get gas now while you can!");//print out if the condition is false
 };
 
 
@@ -54,18 +54,13 @@ if(userName = larissa){
 
 //MULTIPLE CONDITIONS
 
-/*Tire Pressure I
+//Tire Pressure I
 
-To meet to maintenance standards a car’s front two tires should have the same pressure and the back two tires should have the same pressure.  But the front tires and the rear tires can have different pressure than each other, so it is not necessary for all four tires’ pressure to be the same. Create a single conditional that would determine if the tires of a given car are up to spec. 
-    
-Given:
-Pressure for each tire of the car (in psi) in an array.
-Result To Print Out:
-“The tires pass spec!” Or  “ Get your tires checked out!”*/
-
+/*if the lf tires pressure is less than or equals to the rf tire and if the lr tires pressure is less than or equal to the rr tire, get your tires
+checked out*/
 var tires = ["LF 40 psi", "RF 35 psi", "LR 45 psi", "RR 45 psi"];
 
-if(tires[0] >= tires[1]+5 && tires[2] >= tires[3]+5){
+if(tires[0] <= tires[1] && tires[2] <= tires[3]){
 	console.log("Get your tires checked out!");
 }else{
 	console.log("The tires pass spec!");
