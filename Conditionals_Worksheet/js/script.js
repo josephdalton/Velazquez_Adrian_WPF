@@ -16,17 +16,18 @@ Use only code and techniques learned in this class.
 
 //EXPRESSIONS WITH CONDITIONALS
 
-/*Last Chance for Gas!
+//Last Chance for Gas!
 
-A driver has to determine if they can make it across the desert with their current fuel.  They are about to past the last gas station for the next 200 miles and they need to determine whether they should stop now for gas or not.
-    
-Given:
-Gas efficiency of the car (in mpg)
-Gauge reading of the gas tank (in %)
-Car’s gas tank capacity (in gallons)
-Result To Print Out:
-“Yes, you can make it without stopping for gas!” or “You only have X gallons of gas in your tank, better get gas now while you can!”*/
+//if the percentage of gas in my tank, is more than the capacity of gallons in my tank, divided by the mpg efficiency, i can make it across.
+var efficiency = 20;
+var gasTank = 25;
+var tankCap = 15;
 
+if(gasTank > tankCap / efficiency){
+	console.log("Yes, you can make it without stopping for gas!");
+}else{
+	console.log("You only have X gallons of gas in your tank, better get gas now while you can!");
+};
 
 
 //MULTIPLE RESULTS
