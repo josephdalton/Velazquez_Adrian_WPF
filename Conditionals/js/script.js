@@ -228,10 +228,26 @@ if(gpa > 2.0){
 //the above code using a ternary operator:
 
 var gpa2 = 48;
-
 (gpa2 > 2.0) ? console.log("you can graduate!") : console.log("sorry but youve got some studying to do!");
+//^condition ? ^what happens if its true        : ^what happens if its false
 
+var age = 10;
+var book;
+//If the child is under 10, they get green eggs and ham, otherwise they get the time machine.
 
+if(age<10){
+	book = "Green eggs and ham";
+}else{
+	book = "The time machine";
+}
+console.log(book);
+
+//the above code as a ternary:
+var age = 14;
+var book;
+book = (age<10) ? "Dr.Seuss" : "Hamlet"; 
+//NOTE: if youre dealing with larhe blocks of code, you may want to del with it in more traditional ways like using if else statements.
+//Ternaries are good when you are using assignments "var = book;"
 
 
 
