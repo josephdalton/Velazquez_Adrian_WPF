@@ -30,6 +30,8 @@ At least one relational operator other than ==*/
 var savings = 3000;//this variable holds the value of how much i have in my savings account
 var bmw = 4500;//this variable holds the value of how much the bmw costs
 var paycheck =1500;//this variable holds the value of how much my paycheck is
-var payday = false;//this variable holds the value of whether it is payday or not
+var payday = friday;//this variable holds the value of whether it is payday or not
+var friday = false;
+//if today is payday and if i get paid 1500 dollars i can buy the bmw, if not i have to wait
 
  
