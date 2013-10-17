@@ -35,8 +35,8 @@ var friday = false;//this variable holds the value of whether it is friday or no
 
 //if today is payday and if i get paid 1500 dollars i can buy the bmw, if not i have to wait
 
-if(payDay == true && ){
-	
+if(payDay == true && payCheck >= 1500){
+	console.log("I can buy my BMW!");
 }else if{
 	
 }else{
