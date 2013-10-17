@@ -27,3 +27,9 @@ At least one relational operator other than ==*/
 
 //Buying my BMW
 
+var savings = 3000;
+var bmw = 4500;
+var paycheck =1500;
+var payday = false;
+
+ 
