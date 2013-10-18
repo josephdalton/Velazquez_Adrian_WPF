@@ -30,7 +30,7 @@ A logical operator
 At least one relational operator other than ==*/
 var carTypes = ["Foreign Car", "Domestic Car", "Euro Car"];//an array that holds the different types of cars
 var haveCar = true;//a variable that states whether a user has a car or not
-var yourCar = true;
+var yourCar = true;// a variable that states where your car will be true or false if asked if it is a certain type of car
 carTypes[0] = false;
 carTypes[1] = false;
 carTypes[2] = true;
