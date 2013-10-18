@@ -29,3 +29,5 @@ At least one relational operator other than ==*/
 
 var niceClient = false;
 (niceClient = true) ? console.log("You\'re a bad client, I wont work as hard for you") : console.log("You\'re a nice client, I\'ll work hard for you");
+
+//the above code in Conditional Logic using if else statements
