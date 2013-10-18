@@ -33,3 +33,11 @@ var foreign = false;
 var domestic = false;
 var euro = true;
 var member = true;
+
+if(){
+	
+}else if{
+	
+}else{
+	
+}
