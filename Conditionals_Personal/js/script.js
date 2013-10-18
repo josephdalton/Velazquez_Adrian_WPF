@@ -40,5 +40,5 @@ if(payDay == true && payCheck >= 1500){
 }else if(friday = true || payCheck < 1500){
 	console.log("I have to wait till payday");
 }else{
-	
+	console.log();
 }
