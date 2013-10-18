@@ -27,6 +27,8 @@ At least one relational operator other than ==*/
 
 //the nice client
 
+//if the client is nice, i will work hard for him on this project, if the client is a bad client, i wont work as hard for him
+
 var niceClient = false;
 (niceClient = true) ? console.log("You\'re a bad client, I wont work as hard for you") : console.log("You\'re a nice client, I\'ll work hard for you");
 
