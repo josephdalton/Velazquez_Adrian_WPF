@@ -32,7 +32,7 @@ var carTypes = ["Foreign Car", "Domestic Car", "Euro Car"];//an array that holds
 var haveCar = true;//a variable that states whether a user has a car or not
 var yourCar = true;//a variable that states where your car will be true or false if asked if it is a certain type of car
 carTypes[0] = false;//states that the first string in the array is false
-carTypes[1] = false;
+carTypes[1] = false;//states that the second string in the array is false
 carTypes[2] = true;
 var wantToJoin = true;
 
