@@ -26,3 +26,5 @@ A logical operator
 At least one relational operator other than ==*/
 
 //the nice client
+
+var niceClient = true;
