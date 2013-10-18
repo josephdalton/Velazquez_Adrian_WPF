@@ -34,7 +34,7 @@ var niceClient = false;
 
 var niceClient = true;
 if(niceClient = false){
-	
+	console.log("You\'re a nice client, I\'ll work hard for you");
 }else{
 	
 }
