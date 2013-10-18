@@ -28,7 +28,7 @@ A ternary
 An else if
 A logical operator
 At least one relational operator other than ==*/
-var carTypes = ["Foreign Car", "Domestic Car", "Euro Car"];
+var carTypes = ["Foreign Car", "Domestic Car", "Euro Car"];//an array that holds the different types of cars
 var haveCar = true;
 var yourCar = true;
 carTypes[0] = false;
