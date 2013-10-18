@@ -29,12 +29,13 @@ An else if
 A logical operator
 At least one relational operator other than ==*/
 
-var foreign = false;
-var domestic = false;
-var euro = true;
+var foreignCar = false;
+var domesticCar = false;
+var euroCar = true;
 var wantToJoin = true;
+var welcome = true;
 
-if(){
+if(wantToJoin == foreignCar &&  ){
 	
 }else if{
 	
