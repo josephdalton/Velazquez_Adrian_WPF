@@ -39,7 +39,7 @@ var wantToJoin = true;//a variable that states that a user wants to join
 //if you have a car, and want to join, AND if your car is a euro car type
 if(haveCar == wantToJoin && yourCar == carTypes[2]){
 	console.log("Welcome to the club!");//if the above condition is true, print the action
-}else if(haveCar > carTypes[0] || haveCar > carTypes[1]){
+}else if(haveCar > carTypes[0] || haveCar > carTypes[1])/*if the users car is greater than a foreign car OR if the users car is greater than a domestic car*/{
 	console.log("We\'ll consider your application!");
 }else{
 	console.log("Sorry but you cant join!");
