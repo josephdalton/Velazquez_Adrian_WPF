@@ -35,7 +35,7 @@ var niceClient = false;//this variable states that a seemingly nice client is fa
 //the above code in Conditional Logic using if else statements
 
 var niceClient = true;//this variable states that a seemingly nice client is really true and therefore true
-if(niceClient = false){
+if(niceClient = false)/*states that the niceClient is a lie and therefore a false statement*/{
 	console.log("You\'re a bad client, I wont work as hard for you");
 }else{
 	console.log("You\'re a nice client, I\'ll work hard for you");
