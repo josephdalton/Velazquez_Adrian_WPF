@@ -28,4 +28,4 @@ At least one relational operator other than ==*/
 //the nice client
 
 var niceClient = false;
-()
+(niceClient = true) ? console.log("Youre a bad client, i wont work as hard for you") 
