@@ -32,7 +32,7 @@ At least one relational operator other than ==*/
 var foreign = false;
 var domestic = false;
 var euro = true;
-var member = true;
+var wantToJoin = true;
 
 if(){
 	
