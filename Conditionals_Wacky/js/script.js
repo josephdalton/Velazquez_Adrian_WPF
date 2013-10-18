@@ -34,7 +34,7 @@ var yourCar = true;//a variable that states where your car will be true or false
 carTypes[0] = false;//states that the first string in the array is false
 carTypes[1] = false;//states that the second string in the array is false
 carTypes[2] = true;//states that the third string in the array is true
-var wantToJoin = true;
+var wantToJoin = true;//a variable that states that a user wants to join
 
 if(haveCar == wantToJoin && yourCar == carTypes[2]){
 	console.log("Welcome to the club!");
