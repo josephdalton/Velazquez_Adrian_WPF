@@ -31,9 +31,9 @@ At least one relational operator other than ==*/
 var carTypes = ["Foreign Car", "Domestic Car", "Euro Car"];
 var haveCar = true;
 var yourCar = true;
-/*var foreignCar = false;
-var domesticCar = false;
-var euroCar = true;*/
+carTypes[0] = false;
+carTypes[1] = false;
+carTypes[2] = true;
 var wantToJoin = true;
 
 if(haveCar == wantToJoin && yourCar == carTypes[2]){
@@ -41,5 +41,5 @@ if(haveCar == wantToJoin && yourCar == carTypes[2]){
 }else if(haveCar > carTypes[0] || haveCar > carTypes[1]){
 	console.log("We\'ll consider your application!");
 }else{
-	
+	console.log("Sorry but you cant join!");
 }
