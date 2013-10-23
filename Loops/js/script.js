@@ -19,3 +19,17 @@ do {
 }//this code will run
 
 while (c > 0);//as long as this condition is true
+
+//do's in do while loops will be ran first, followed by the while. This means that a do will run even if a while is false.
+
+
+//FOR LOOPS - ARE THE SHORTHAND VERSION OF LOOPS
+//every thing can be scripted in one line: var, condition, increment, index, action...
+
+for (var i = 10; i > 0; i--){
+	console.log(i + "kegs of beer on the wall");
+}
+
+
+
+
