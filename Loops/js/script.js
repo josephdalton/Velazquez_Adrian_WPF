@@ -3,6 +3,7 @@
 
 var b = 10;
 
-if (b > 0){
-	console.log(b);
+while (b > 0){
+	console.log(b + "kegs on the wall");
+	b--//this decrements the loop. Otherwise it would loop for infinity
 }
