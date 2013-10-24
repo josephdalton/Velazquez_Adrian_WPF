@@ -54,10 +54,10 @@ calcArea();
 //Variable Scope - Inside and outside of functions
 //you can have variables with the same name inside of a function and outside of a function as well
 
-var width = 50;
-
+var width = 50;//scoped outside
+//The variable width is scoped to the function calcArea. The function will use this variable, not the one outside of the function.
 function calcArea(){
-	var width = 50;
+	var width = 50;//scoped inside
 	var height = 10;
 	var area = width * height;
 	console.log(area);
@@ -66,6 +66,28 @@ function calcArea(){
 calcArea();
 
 //A function will always prefer to use a variable inside of it even if another variable outside of the function with the same name exists
+
+//Arguments and Parameters - getting stuff into a function
+//Arguments and Parameters are a fundamental solution to keeping our functions from being the same exact thing every single time
+//Allows you to switch one or two things to make functions a little more flexible.
+//Parameters allow you to store different materials you can use when you need them
+//NOTE - Not all functions have to have parameters or arguments.
+//NOTE - an argument is information you send to the function.
+//NOTE - a parameter is a storage container
+
+//basic structure of a function with parameters and arguments.
+funcName (Argument1, Argument2);//function call
+
+function funcName(Parameter1, Parameter2)/*function definition*/{
+	//code the function runs
+}
+
+calcArea(30, 20);/*30 is the first argument. It is stored in the first parameter which is defined as w. 20 is the second argument and is stored in the second parameter*/
+
+function calcArea(w, h)/*w(first parameter)= 30, h(second parameter)= 20*/{
+	var area = w * h;
+	console.log(area);
+}
 
 
 
