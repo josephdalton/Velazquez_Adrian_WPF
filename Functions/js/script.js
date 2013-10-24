@@ -75,9 +75,10 @@ calcArea();
 //NOTE - an argument is information you send to the function.
 //NOTE - a parameter is a storage container
 //NOTE - variable declarations are the only things that go in as parameters!
+//ARGUMENTS ARE THE ELEMENTS GOING IN TO A FUNCTION
 
 //basic structure of a function with parameters and arguments.
-//funcName (Argument1, Argument2);//function call
+//funcName (argument1, argument2);//function call
 
 function funcName(Parameter1, Parameter2)/*function definition*/{
 	//code the function runs
@@ -99,3 +100,34 @@ dogYears(4);
 dogYears(6);
 dogYears(8);
 dogYears(11);
+
+//NOTE - the variable used in the parameter stores the value in the argument
+//NOTE - CALL THE ARGUMENT, DEFINE THE PARAMETER!!!!!!!
+
+//Passing
+dogYears(6);//passes the value 6 to the parameter age
+dogYears(8);//passes the value 8 to the parameter age
+dogYears(11);//passesthe value 11 to the parameter age
+
+//NOTE - using a value is the same thing as using a variable that represents that value
+
+var age1 = 4;
+dogYears(age1);
+
+//Arguments - the information being passed in. Always in the function invokation or the function call
+//Parameter - the storage container for that information. Always in the functions definition.
+//Send Arguments to Parameters.
+
+//RETURN VALUES - the things coming out of a function
+//returns get information out of a function once it has been calculated.
+//functions that are returnin, shuld be assigned to variables
+
+var total = calcArea(30, 20);
+
+function calcArea(w, h){
+	var area = w * h;
+	return area;//this spits out the value of area from the variable above to the variable outside of the function on the top line
+}
+
+console.log(total);
+
