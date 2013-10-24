@@ -36,5 +36,36 @@ function calcArea(){
 	console.log(area);
 }
 
+//Invoking the function "Execute"
+//To call a function, simply write out the name of the function followed by two parenthesis and a semicoloin ();
+
+outptMsg();
+calcArea();
+
+//call the reuseable function more than once and it will run the funtion as many times as you need it to run
+outptMsg();
+calcArea();
+outptMsg();
+calcArea();
+outptMsg();
+calcArea();
+//The function itself is the definition, when you call it, you use the function name to call it.
+
+//Variable Scope - Inside and outside of functions
+//you can have variables with the same name inside of a function and outside of a function as well
+
+var width = 50;
+
+function calcArea(){
+	var width = 50;
+	var height = 10;
+	var area = width * height;
+	console.log(area);
+}
+
+calcArea();
+
+//A function will always prefer to use a variable inside of it even if another variable outside of the function with the same name exists
+
 
 
