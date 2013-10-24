@@ -74,20 +74,28 @@ calcArea();
 //NOTE - Not all functions have to have parameters or arguments.
 //NOTE - an argument is information you send to the function.
 //NOTE - a parameter is a storage container
+//NOTE - variable declarations are the only things that go in as parameters!
 
 //basic structure of a function with parameters and arguments.
-funcName (Argument1, Argument2);//function call
+//funcName (Argument1, Argument2);//function call
 
 function funcName(Parameter1, Parameter2)/*function definition*/{
 	//code the function runs
 }
 
 calcArea(30, 20);/*30 is the first argument. It is stored in the first parameter which is defined as w. 20 is the second argument and is stored in the second parameter*/
-
 function calcArea(w, h)/*w(first parameter)= 30, h(second parameter)= 20*/{
 	var area = w * h;
 	console.log(area);
 }
 
+function dogYears(age){
+	var dogYears = age * 7;
+	console.log("Sparky is" + dogYears + " years old");
+}
+dogYears(4);
 
-
+//using it more than once:
+dogYears(6);
+dogYears(8);
+dogYears(11);
