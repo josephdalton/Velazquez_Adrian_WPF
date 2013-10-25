@@ -28,5 +28,20 @@ You are required to make a minimum of 20 commits to your Git repository as you p
 
 
 
+var humpDay = true;
+var friday = false;
+var partyTime = true;
+var lol = "Chronological distance cannot be measured geometrically";
 
+if(){
+	console.log();
+}else if(){
+	console.log();
+}else{
+	console.log(lol);
+}
+
+
+
+if
 
