@@ -24,7 +24,7 @@ Test your code! Do the calculations on your own calculator. Check that the compu
 Remember that functions are sub factories or sub programs of the entire program.
 You are required to make a minimum of 20 commits to your Git repository as you progress and write your code. Failing to do so will result in an automatic 0 for the assignment.*/
 
-//Friday is right around the corner. False! Chronological distance cannot be measured geometrically. lol
+//Friday is right around the corner. False! Chronological distance cannot be measured geometrically. lol 
 
 
 

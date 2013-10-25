@@ -2,8 +2,6 @@
 //October 24th 2013
 //Functions - Personal
 
-Criteria:
-
 /*Make sure each of the sub-projects follows this list of criteria:
 As in the earlier assignments you will need to create code that calculates a result. You may not use the same formulas or code used in previous assignments.
 Decide what your code will calculate. This should be an original calculation. In other words you may not use any of the examples mentioned in this class. This will result in an automatic 0.
