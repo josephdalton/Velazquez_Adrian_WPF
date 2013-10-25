@@ -30,13 +30,16 @@ You are required to make a minimum of 20 commits to your Git repository as you p
 
 var humpDay = true;
 var friday = false;
+var thursday = false;
 var partyTime = true;
+var almostThere = true;
+var notYet = true;
 var lol = "Chronological distance cannot be measured geometrically";
 
-if(){
-	console.log();
-}else if(){
-	console.log();
+if(thursday => humpDay && friday == partyTime){
+	console.log("It\'s party Time!!!");
+}else if(partTime < friday || thursday > humpDay){
+	console.log(notYet);
 }else{
 	console.log(lol);
 }
