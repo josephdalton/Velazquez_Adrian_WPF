@@ -36,7 +36,7 @@ var almostThere = true;
 var notYet = true;
 var lol = "Chronological distance cannot be measured geometrically";
 
-if(thursday => humpDay && friday == partyTime){
+if(thursday >= humpDay && friday == partyTime){
 	console.log("It\'s party Time!!!");
 }else if(partTime < friday || thursday > humpDay){
 	console.log(notYet);
@@ -46,5 +46,4 @@ if(thursday => humpDay && friday == partyTime){
 
 
 
-if
 
