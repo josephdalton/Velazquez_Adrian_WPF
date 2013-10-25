@@ -129,5 +129,49 @@ function calcArea(w, h){
 	return area;//this spits out the value of area from the variable above to the variable outside of the function on the top line
 }
 
-console.log(total);
+/*console.log(total);*/
 
+//PROCEDURES
+//Never return values
+//Are a more specific type of function
+
+//Procedures just contain a list of things to do
+//Functions actually calculate and return values
+
+//This is a function
+function calcArea(width, height){
+	var area = width * height;
+	return area;//returns
+}
+
+//This is a procedure
+function calcArea(width, height){
+	var area = width * height;
+	console.log(area);//will not return without calling it
+}
+calcArea(20,50);
+
+//ANONYMOUS FUNTIONS (CLOSURES) - 
+//created and given a name at the same time the code is actually executed.
+//it will execute the function at the same time the function is created.
+//these types of functions still need to be called.
+
+var functionName = function(){
+	//code the function runs.
+}
+
+functionName();//you call the function by assigning a name to the function.
+
+//example
+
+var calcArea = function(width, height){
+	//code to run
+	var area = width * height;
+	return area;
+}
+//only works if you assign it a variable name
+
+calcArea(20, 30);
+//to make sure its working, assign it to a variable and log it to the screen to see if you get the same result.
+var a = calcArea(20, 30);
+console.log(a);//
