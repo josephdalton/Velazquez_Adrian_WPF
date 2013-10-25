@@ -174,4 +174,6 @@ var calcArea = function(width, height){
 calcArea(20, 30);
 //to make sure its working, assign it to a variable and log it to the screen to see if you get the same result.
 var a = calcArea(20, 30);
-console.log(a);//
+console.log(a);
+
+//NOTE - WITH ANONYMOUS FUNCTIONS YOU HAVE TO DEFINE BEFORE YOU ENVOKE!!!
