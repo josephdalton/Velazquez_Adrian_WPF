@@ -1,35 +1,27 @@
-//LOOPS - 3 TYPES OF LOOPS: WHILE, DO WHILE, FOR
-//While loops look similar to "if" conditional statements
+//Adrian Velazquez
+//October 24th 2013
+//Functions - Personal
 
+Criteria:
 
-//WHILE LOOPS
-var b = 10;//setsup the index
+/*Make sure each of the sub-projects follows this list of criteria:
+As in the earlier assignments you will need to create code that calculates a result. You may not use the same formulas or code used in previous assignments.
+Decide what your code will calculate. This should be an original calculation. In other words you may not use any of the examples mentioned in this class. This will result in an automatic 0.
+Information should be collected from the user with prompts
+Calculate the result using the variables in an expression (NOT the literal values or numbers)
+The result should appear in the browser's console. (Remember to include units like “square feet” or "meters cubed"). This should explain the result as well.
+Use a function as part of your code in each sub-project. This function should have at least two parameters and return a value.
+ 
+Each of the following requirements must exist in at least one of the 3 subprojects:
+A ternary
+An else if
+An anonymous function
+A normal "named" function
+An expression with two arithmetic operators
+A function with three parameters.
+At least one logical operator
+Don't forget!:
 
-while (b > 0){//checks the condition
-	console.log(b + "kegs on the wall");
-	b--//this decrements or increments the loop (index). Otherwise it would loop for infinity
-}
-
-//DO WHILE LOOPS
-var c = 10;
-
-do {
-	console.log(c + "kegs on the wall");
-	c--;
-}//this code will run
-
-while (c > 0);//as long as this condition is true
-
-//do's in do while loops will be ran first, followed by the while. This means that a do will run even if a while is false.
-
-
-//FOR LOOPS - ARE THE SHORTHAND VERSION OF LOOPS
-//every thing can be scripted in one line: var, condition, increment, index, action...
-
-for (var i = 10; i > 0; i--){
-	console.log(i + "kegs of beer on the wall");
-}
-
-
-
-
+Test your code! Do the calculations on your own calculator. Check that the computer is producing the same result.
+Remember that functions are sub factories or sub programs of the entire program.
+You are required to make a minimum of 20 commits to your Git repository as you progress and write your code. Failing to do so will result in an automatic 0 for the assignment.*/
