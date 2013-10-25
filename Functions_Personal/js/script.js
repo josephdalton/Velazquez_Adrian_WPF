@@ -29,3 +29,5 @@ var gpa2 = 48;
 //^condition ? ^what happens if its true        : ^what happens if its false
 
 //Logical Operators - && = and, || = or, ^ = Exclusive or (XOR), ! = not. 
+
+//use for if and else

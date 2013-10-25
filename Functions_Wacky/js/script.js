@@ -41,7 +41,7 @@ if(thursday >= humpDay && friday == partyTime){
 }else if(partyTime < friday || thursday > humpDay){
 	console.log(notYet);
 }else{
-	console.log(lol);
+	console.log(lol + " but the math for that must be awesome");
 }
 
 
