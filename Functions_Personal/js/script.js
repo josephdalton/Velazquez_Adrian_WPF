@@ -29,3 +29,5 @@ You are required to make a minimum of 20 commits to your Git repository as you p
 var gpa2 = 48;
 (gpa2 > 2.0) ? console.log("you can graduate!") : console.log("sorry but youve got some studying to do!");
 //^condition ? ^what happens if its true        : ^what happens if its false
+
+//Logical Operators - && = and, || = or, ^ = Exclusive or (XOR), ! = not. 
