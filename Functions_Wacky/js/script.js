@@ -24,10 +24,10 @@ You are required to make a minimum of 20 commits to your Git repository as you p
 
 
 var humpDay = true;//boolean variable with a definition of humpDay and a declaration of true
-var friday = false;
+var friday = false;//boolean variable with a definition of friday and a declaration of false
 var thursday = false;
-var partyTime = true;//boolean variable with a definition of humpDay and a declaration of true
-var notYet = true;//boolean variable with a definition of humpDay and a declaration of true
+var partyTime = true;//boolean variable with a definition of partyTime and a declaration of true
+var notYet = true;//boolean variable with a definition of notYet and a declaration of true
 var lol = "Chronological distance cannot be measured geometrically";
 
 if(thursday >= humpDay && friday == partyTime){
