@@ -25,7 +25,7 @@ if(thursday >= humpDay && friday == partyTime)/*if statement: if thursday is gre
 }else if(partyTime < friday || thursday > humpDay)/*if partyTime is less than friday OR thrsday is greater than humpDay*/{
 	console.log(notYet);//print to the console the declaration of the variable with the definition of notYet
 }else{
-	console.log(lol + " but the math for that must be awesome");
+	console.log(lol + " but the math for that must be awesome");/*print to the console the declaration of the variable with the definition of lol, along with the string*/
 }
 
 
