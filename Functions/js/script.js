@@ -125,7 +125,7 @@ dogYears(age1);
 
 //RETURN VALUES - the things coming out of a function
 //returns get information out of a function once it has been calculated.
-//functions that are returnin, shuld be assigned to variables
+//functions that are returning, should be assigned to variables
 
 var total = calcArea(30, 20);
 
