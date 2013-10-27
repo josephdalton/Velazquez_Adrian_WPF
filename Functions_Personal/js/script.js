@@ -44,4 +44,4 @@ if (kdRatio > 1.0){
 
 //The above code as a Ternary
 
-(kdRatio > 1.0) ? console.log("You can use the " + gun1) : 
+(kdRatio > 1.0) ? console.log("You can use the " + gun1) : console.log("Sorry, you still have to use the " + gun2);
