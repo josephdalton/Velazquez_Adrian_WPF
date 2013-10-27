@@ -32,7 +32,6 @@ var humpDay = true;
 var friday = false;
 var thursday = false;
 var partyTime = true;
-var almostThere = true;
 var notYet = true;
 var lol = "Chronological distance cannot be measured geometrically";
 

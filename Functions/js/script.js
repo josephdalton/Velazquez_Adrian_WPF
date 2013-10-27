@@ -51,6 +51,11 @@ outptMsg();
 calcArea();
 //The function itself is the definition, when you call it, you use the function name to call it.
 
+function greeting(name){
+	console.log("Great to see you," + " ", + name);
+}
+greeting("Adrian");
+
 //Variable Scope - Inside and outside of functions
 //you can have variables with the same name inside of a function and outside of a function as well
 
@@ -177,3 +182,9 @@ var a = calcArea(20, 30);
 console.log(a);
 
 //NOTE - WITH ANONYMOUS FUNCTIONS YOU HAVE TO DEFINE BEFORE YOU ENVOKE!!!
+
+
+function foodDemand(food){
+	console.log("I want to eat " +food);
+}
+foodDemand("Pizza");
