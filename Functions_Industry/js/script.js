@@ -16,9 +16,9 @@ Don't forget!:
 Test your code! Do the calculations on your own calculator. Check that the computer is producing the same result.
 Remember that functions are sub factories or sub programs of the entire program.
 You are required to make a minimum of 20 commits to your Git repository as you progress and write your code. Failing to do so will result in an automatic 0 for the assignment.*/
-
+//Be a RockStar, CHange the world, Become a Computer Programmer
 function highDemand(programmer){
-	console.log("Be a RockStar, Change the world, Become a " +programmer);
+	console.log("Be a RockStar, Change the world, Become a " + programmer);
 }
 highDemand("Computer Programmer");
 
