@@ -47,8 +47,7 @@ if (kdRatio > 1.0){
 
 var gunClasses = ["Hammer", "LSat", ".50 cal", "Skorpion Evo", "MP5"];
 var soldier = ["Sniper", "Infantry", "Gunner"];
-gunClasses [2] = true;
-soldier [0] = true;
+
 
 if (gunClasses[2] = soldier[0]){
 	console.log("You are a " + soldier[0] + " and can use the " + gunClasses[2]);
