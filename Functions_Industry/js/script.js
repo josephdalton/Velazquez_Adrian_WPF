@@ -22,14 +22,14 @@ function highDemand(programmer){
 }
 highDemand("Computer Programmer");
 
-//you dont have to be a genius to learn to code, you have to be determined
+//to become a programmer, you have to be 1% genius and 99% determined
 
 var programmer = function(genius, determined){
 	var superPower = genius + determined;
 	return superPower;
 }
 
-programmer(no, yes);
+programmer(1, 99);
 
 
 
