@@ -2,15 +2,6 @@
 //October 24th 2013
 //Functions - Wacky
 
-/*Make sure each of the sub-projects follows this list of criteria:
-As in the earlier assignments you will need to create code that calculates a result. You may not use the same formulas or code used in previous assignments.
-Decide what your code will calculate. This should be an original calculation. In other words you may not use any of the examples mentioned in this class. This will result in an automatic 0.
-Information should be collected from the user with prompts
-Calculate the result using the variables in an expression (NOT the literal values or numbers)
-The result should appear in the browser's console. (Remember to include units like “square feet” or "meters cubed"). This should explain the result as well.
-Use a function as part of your code in each sub-project. This function should have at least two parameters and return a value.
-*/
-
 //Friday is right around the corner. False! Chronological distance cannot be measured geometrically. lol 
 
 var humpDay = true;//boolean variable with a definition of humpDay and a declaration of true
