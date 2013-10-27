@@ -24,9 +24,9 @@ function highDemand(programmer)/*the function named highDemand with the paramete
 highDemand("Computer Programmer");//Calls the highDemand function and adds the string as an argument for the parameter definition of the function
 
 //to become a programmer, you have to be 1% genius and 99% determined
-var programmer = function(genius, determined){
-	var superPower = genius + determined;
-	return superPower;
+var programmer = function(genius, determined)/*a variable named programmer equals a function with parameters genius and determined defined*/{
+	var superPower = genius + determined;//a variable named superPower is equal to parameters genius + determined
+	return superPower;//gets information out of the function once it has been calculated
 }
 programmer(1, 99);
 var a = programmer(1, 99);
