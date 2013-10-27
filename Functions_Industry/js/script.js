@@ -27,7 +27,7 @@ You are required to make a minimum of 20 commits to your Git repository as you p
 function highDemand(programmer){
 	console.log("Be a RockStar, Change the world, Become a " +programmer);
 }
-highDemand();
+highDemand("Computer Programmer");
 
 
 
