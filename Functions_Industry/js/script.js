@@ -29,6 +29,8 @@ var programmer = function(genius, determined){
 	return superPower;
 }
 
+programmer(no, yes);
+
 
 
 
