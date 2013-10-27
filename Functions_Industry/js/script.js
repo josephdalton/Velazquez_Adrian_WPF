@@ -19,7 +19,7 @@ You are required to make a minimum of 20 commits to your Git repository as you p
 
 //Be a RockStar, Change the world, Become a Computer Programmer
 function highDemand(programmer)/*the function named highDemand with the parameter of Programmer (definition)*/{
-	console.log("Be a RockStar, Change the world, Become a " + programmer);
+	console.log("Be a RockStar, Change the world, Become a " + programmer);//action the function performs when called
 }
 highDemand("Computer Programmer");//Calls the highDemand function and adds the string as an argument for the parameter definition of the function
 
@@ -30,7 +30,8 @@ var programmer = function(genius, determined){
 }
 programmer(1, 99);
 var a = programmer(1, 99);
-console.log("To become a programmer, you have to be 1% genius and 99% determined. For a total of " + a + "%" + " AWESOME");
+var odds = "I like those odds!";
+console.log("To become a programmer, you have to be 1% genius and 99% determined. For a total of " + a + "%" + " AWESOME" + " " + odds);
 
 
 
