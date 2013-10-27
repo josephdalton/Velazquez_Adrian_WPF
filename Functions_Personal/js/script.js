@@ -44,9 +44,11 @@ if (kdRatio > 1.0){
 
 var gunClasses = ["Hammer", "LSat", ".50 cal", "Skorpion Evo", "MP5"];
 var soldier = ["Sniper", "Infantry", "Gunner"];
-var soldier[0] = true;
+var soldier (0) = true;
 if (gunClasses(2) = soldier(0)){
-	console.log();
+	console.log("abcd");
+}else{
+	
 }
 
 
