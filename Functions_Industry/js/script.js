@@ -16,17 +16,18 @@ Don't forget!:
 Test your code! Do the calculations on your own calculator. Check that the computer is producing the same result.
 Remember that functions are sub factories or sub programs of the entire program.
 You are required to make a minimum of 20 commits to your Git repository as you progress and write your code. Failing to do so will result in an automatic 0 for the assignment.*/
+
 //Be a RockStar, CHange the world, Become a Computer Programmer
-function highDemand(programmer){
+function highDemand(programmer)/*the function named highDemand with the parameter of Programmer (definition)*/{
 	console.log("Be a RockStar, Change the world, Become a " + programmer);
 }
-highDemand("Computer Programmer");
+highDemand("Computer Programmer");//Calls the highDemand function
 
 //to become a programmer, you have to be 1% genius and 99% determined
-/*var programmer = function(genius, determined){
+var programmer = function(genius, determined){
 	var superPower = genius + determined;
 	return superPower;
-}*/
+}
 programmer(1, 99);
 var a = programmer(1, 99);
 console.log("To become a programmer, you have to be 1% genius and 99% determined. For a total of " + a + "%" + " AWESOME");
