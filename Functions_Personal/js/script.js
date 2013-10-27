@@ -55,4 +55,6 @@ if (gunClasses[2] = soldier[0]){
 	console.log("You are a " + soldier[2] + " and should use the " + gunClasses[0]);
 }
 
+(gunClasses[2] = soldier[0]) ? console.log("You are a " + soldier[0] + " and can use the " + gunClasses[2]) : console.log("You are a " + soldier[2] + " and should use the " + gunClasses[0]);
+
 
