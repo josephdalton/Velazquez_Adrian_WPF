@@ -32,7 +32,7 @@ var programmer = function(genius, determined){
 }
 programmer(1, 99);
 var a = programmer(1, 99);
-console.log(a);
+console.log("To become a programmer, you have to be 1% genius and 99% determined. For a total of " + a + "%" + " AWESOME");
 
 
 
