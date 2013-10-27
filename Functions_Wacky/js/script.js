@@ -28,7 +28,7 @@ var friday = false;//boolean variable with a definition of friday and a declarat
 var thursday = false;//boolean variable with a definition of thursday and a declaration of false
 var partyTime = true;//boolean variable with a definition of partyTime and a declaration of true
 var notYet = true;//boolean variable with a definition of notYet and a declaration of true
-var lol = "Chronological distance cannot be measured geometrically";
+var lol = "Chronological distance cannot be measured geometrically";//a string variable with a definition of lol and a string declaration
 
 if(thursday >= humpDay && friday == partyTime){
 	console.log("It\'s party Time!!!");
