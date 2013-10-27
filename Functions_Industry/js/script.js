@@ -22,6 +22,8 @@ function highDemand(programmer){
 }
 highDemand("Computer Programmer");
 
+//you dont have to be a genius to learn to code, you have to be determined
+
 
 
 
