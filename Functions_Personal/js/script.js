@@ -42,13 +42,16 @@ if (kdRatio > 1.0){
 
 (kdRatio > 1.0) ? console.log("You can use the " + gun1) : console.log("Sorry, you still have to use the " + gun2);
 
+
+
+
 var gunClasses = ["Hammer", "LSat", ".50 cal", "Skorpion Evo", "MP5"];
 var soldier = ["Sniper", "Infantry", "Gunner"];
-var soldier (0) = true;
+var soldier(0) = true;
 if (gunClasses(2) = soldier(0)){
 	console.log("abcd");
 }else{
-	
+	console.log("ffdewf");
 }
 
 
