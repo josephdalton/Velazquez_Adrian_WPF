@@ -27,7 +27,7 @@ var soldier = ["Sniper", "Infantry", "Gunner"];
 if (gunClasses[2] = soldier[0])/*if the .50cal equals the sniper*/{
 	console.log("You are a " + soldier[0] + " and can use the " + gunClasses[2]);//I am a sniper and can use the .50cal
 }else{
-	console.log("You are a " + soldier[2] + " and should use the " + gunClasses[0]);/*if th above statement is false, I am an infantry and should use the hammer*/
+	console.log("You are a " + soldier[2] + " and should use the " + gunClasses[0]);/*if the above statement is false, I am an infantry and should use the hammer*/
 }
 
 //the above code as a ternary
