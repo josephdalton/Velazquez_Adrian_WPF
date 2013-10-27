@@ -12,12 +12,7 @@ Use a function as part of your code in each sub-project. This function should ha
  
 Each of the following requirements must exist in at least one of the 3 subprojects:
 A ternary
-An else if
-An anonymous function
-A normal "named" function
 An expression with two arithmetic operators
-A function with three parameters.
-At least one logical operator
 Don't forget!:
 
 Test your code! Do the calculations on your own calculator. Check that the computer is producing the same result.
