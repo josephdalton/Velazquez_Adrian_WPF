@@ -23,9 +23,6 @@ function highDemand(programmer){
 highDemand("Computer Programmer");
 
 //to become a programmer, you have to be 1% genius and 99% determined
-
-
-
 var programmer = function(genius, determined){
 	var superPower = genius + determined;
 	return superPower;
