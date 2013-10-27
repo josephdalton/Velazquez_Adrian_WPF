@@ -31,3 +31,5 @@ var gpa2 = 48;
 //Logical Operators - && = and, || = or, ^ = Exclusive or (XOR), ! = not. 
 
 //use for if and else
+
+var kdRatio = .750;
