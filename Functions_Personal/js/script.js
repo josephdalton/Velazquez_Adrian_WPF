@@ -33,3 +33,9 @@ var gpa2 = 48;
 //use for if and else
 
 var kdRatio = .750;
+var gun1 = "Scar 119";
+var gun2 = "Vector KD";
+
+if (kdRatio > 1.0){
+	console.log();
+}
