@@ -24,10 +24,6 @@ Test your code! Do the calculations on your own calculator. Check that the compu
 Remember that functions are sub factories or sub programs of the entire program.
 You are required to make a minimum of 20 commits to your Git repository as you progress and write your code. Failing to do so will result in an automatic 0 for the assignment.*/
 
-//var gpa2 = 48;
-//(gpa2 > 2.0) ? console.log("you can graduate!") : console.log("sorry but youve got some studying to do!");
-//^condition ? ^what happens if its true        : ^what happens if its false
-
 //Logical Operators - && = and, || = or, ^ = Exclusive or (XOR), ! = not. 
 
 //use for if and else
@@ -45,3 +41,5 @@ if (kdRatio > 1.0){
 //The above code as a Ternary
 
 (kdRatio > 1.0) ? console.log("You can use the " + gun1) : console.log("Sorry, you still have to use the " + gun2);
+
+
