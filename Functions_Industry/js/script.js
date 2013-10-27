@@ -1,6 +1,6 @@
 ////Adrian Velazquez
 //October 24th 2013
-//Functions - Wacky
+//Functions - Industry
 
 /*Make sure each of the sub-projects follows this list of criteria:
 As in the earlier assignments you will need to create code that calculates a result. You may not use the same formulas or code used in previous assignments.
@@ -23,6 +23,12 @@ Don't forget!:
 Test your code! Do the calculations on your own calculator. Check that the computer is producing the same result.
 Remember that functions are sub factories or sub programs of the entire program.
 You are required to make a minimum of 20 commits to your Git repository as you progress and write your code. Failing to do so will result in an automatic 0 for the assignment.*/
+
+function highDemand(programmer){
+	
+}
+
+
 
 
 
