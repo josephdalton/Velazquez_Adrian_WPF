@@ -1,5 +1,3 @@
-
-
 //Arrays
 var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Beaker", "Animal"]; //index 0,1,2,3,4
 console.log(muppetNames); //prints out in the console
